@@ -4,7 +4,7 @@ A browser-based card battle game built with vanilla JavaScript and the Deck of C
 
 ## 🔗 Live Demo
 
-👉 [Play Deck Duel]([LIVE_DEMO_URL](https://deck-duel-tc.netlify.app/))
+👉 [Play Deck Duel](https://deck-duel-tc.netlify.app)
 
 ## ✨ Features
 
