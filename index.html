@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Duel | Card Battle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="game-container">
+        <div class="game-header">
+            <h1>DECK DUEL</h1>
+            <p id="remaining">52 CARDS</p>
+        </div>
+        <section class="game-board">
+            <div class="computer-area">
+                <h3>COMPUTER</h3>
+                <p id="computer-score">0</p>
+                <div class="card-slot"></div>
+            </div>
+            <div id="game-message">DRAW A CARD</div>
+            <div class="user-area">
+                <div class="card-slot"></div>
+                <p id="user-score">0</p>
+                <h3>YOU</h3>
+
+            </div>
+
+        </section>
+        <div class="controls">
+             <button id="new-game">NEW GAME</button>
+             <button id="draw-cards" disabled>DRAW CARDS</button>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
